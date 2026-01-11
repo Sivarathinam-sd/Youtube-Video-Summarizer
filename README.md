@@ -1,6 +1,6 @@
 # Youtube-Video-Summarizer
 
-This project focuses on summarizing YouTube video content by combining video transcriptions with Large Language Models (LLMs).The goal is to help users quickly understand the key ideas, themes, and takeaways of long videos without watching them in full. Such a tool is especially useful for educational content, podcasts, lectures, tutorials, and informational videos, improving accessibility and saving time. 
+This project focuses on summarizing YouTube video content by combining video transcriptions with Large Language Models (LLMs). The goal is to help users quickly understand the key ideas, themes, and takeaways of long videos without watching them in full. Such a tool is especially useful for educational content, podcasts, lectures, tutorials, and informational videos, improving accessibility and saving time. 
 
 <img src="hero-banner.png" >
 
