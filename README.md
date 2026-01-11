@@ -4,6 +4,31 @@ This project focuses on summarizing YouTube video content by combining video tra
 
 <img src="hero-banner2.png" >
 
+
+
+## Features
+* Fetches transcripts from YouTube videos
+* Generates AI-powered summaries using Large Landuage Model (LLM).
+* Outputs summaries strictly in Markdown
+* Focuses on key ideas, removing filler and repetition
+* Displays summaries directly in Jupyter
+* Designed for educational, technical, interview, and commentary videos
+
+## How It Works
+
+- **Extract Video ID from a YouTube URL**  
+  Since the YouTube Transcript API accepts only a video ID, the URL is parsed using basic string splitting based on the `=` character.
+
+- **Fetch Transcript**  
+  The video transcript is retrieved using the `youtube-transcript-api` library.
+
+- **Send Transcript to Groq LLM**  
+  The extracted transcript is sent to a Groq-hosted large language model using a structured summarization prompt. Groq is a cloud platform optimized for fast LLM inference.
+
+- **Render Markdown Summary**  
+  The generated summary is returned in Markdown format and rendered directly within the Jupyter Notebook.
+
+
 ## Prerequisites
 * Python 3.9 or higher  - https://www.python.org
 * Groq API key  - https://groq.com
