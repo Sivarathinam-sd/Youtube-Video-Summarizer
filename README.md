@@ -13,8 +13,8 @@ This project focuses on summarizing YouTube video content by combining video tra
 
 * Step 1: Clone the repository 
   * ```
-    git clone https://github.com/Sivarathinam-sd/Web-Scraping-and-AI-Based-News-Summarizer.git
-    cd Web-Scraping-and-AI-Based-News-Summarizer
+    git clone https://github.com/Sivarathinam-sd/Youtube-Video-Summarizer
+    cd Youtube-Video-Summarizer
     
 * Step 2: Create and activate a virtual environment
   * ```
